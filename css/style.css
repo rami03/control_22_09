@@ -14,4 +14,68 @@
 /* Colores */
 
 /* ******************************** */
+* {
+    box-sizing: border-box;
+}
+main{
+    /* display: flex; */
+    justify-content: center;
 
+}
+.targeta_pagar_encabezado{
+    max-width: 400px;
+
+}
+.targeta_pagar_encabezado_navegacion{
+    display: flex;
+}
+.svg_atras{
+    width: 90px;
+    height: 75px;
+}
+.targeta_pagar_encabezado_texto{
+    text-align: start;
+    padding-left: 50%;
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.foto{
+    margin-left: 60px;
+}
+.imagen_perfil_texto{
+    margin-top: 0;
+    margin-bottom: 0%;
+    margin-left: 60px ;
+    font-size: 3.5rem;
+}
+.imagen_perfil_texto2{
+    margin-top: 0;
+    margin-bottom: 0%;
+    margin-left: 60px ;
+    font-size: 1.5rem;
+}
+.escojer{
+    background-color: blue;
+    border-radius: 15%;
+    list-style: none;
+    padding-top: 40px;
+    max-width: 450px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.escojer_svg{
+    height: ;
+}
+
+.img_precio_grande_texto{
+    width: 400px;
+    text-align: center;
+
+}
+article{
+    width: 350px;
+    background-color: red;
+    border-radius: 15px;
+}

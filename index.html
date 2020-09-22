@@ -1,53 +1,105 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <!-- SEO = Básico -->
-    <title></title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- SEO = Redes Sociales -->
-    <meta property="og:title" content="" />
-    <meta property="og:type" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
+<head>
+  <meta charset="utf-8" />
+  <!-- SEO = Básico -->
+  <title></title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- App Web, inidicar al navegador que elementos mostrar en un JSON -->
-    <link rel="manifest" href="site.webmanifest" />
-    <!-- icono de acceso para IOS -->
-    <link rel="apple-touch-icon" href="icon.png" />
-    <!-- Recordar que favicon.ico tiene que estar en el directorio inicial -->
+  <!-- SEO = Redes Sociales -->
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
 
-    <!-- links de estilos -->
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/index.css" />
-    <!-- Se cambia el tema de algunos navegadores -->
-    <meta name="theme-color" content="#fafafa" />
-  </head>
-  <body>
-    <!-- *** ESTRUCTURA SEMÁNTICA *** -->
-    <!-- Header (encabezado de la página, zona superior) -->
-    <header>
-      <!-- nav (el navegador de toda la web) -->
-      <nav>
-        <a href="" class="link1">link1</a>
-        <a href="" class="link2">link2</a>
-        <a href="" class="link3">link3</a>
-        <a href="" class="link4">link4</a>
+  <!-- App Web, inidicar al navegador que elementos mostrar en un JSON -->
+  <link rel="manifest" href="site.webmanifest" />
+  <!-- icono de acceso para IOS -->
+  <link rel="apple-touch-icon" href="icon.png" />
+  <!-- Recordar que favicon.ico tiene que estar en el directorio inicial -->
+
+  <!-- links de estilos -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <!-- Se cambia el tema de algunos navegadores -->
+  <meta name="theme-color" content="#fafafa" />
+</head>
+
+<body>
+  <!-- *** ESTRUCTURA SEMÁNTICA *** -->
+  <!-- Header (encabezado de la página, zona superior) -->
+  <header>
+  </header>
+  <!-- Main (centro de la página, zona central) -->
+  <main>
+
+    <!-- <section class="targeta_pagar"> -->
+    <section class="targeta_pagar_encabezado">
+      <nav class="targeta_pagar_encabezado_navegacion">
+        <img class="svg_atras" src="img/desktop/flecha_izquierda.svg" alt="Flecha_atras">
+        <p class="targeta_pagar_encabezado_texto">Pagar</p>
       </nav>
-    </header>
-    <!-- Main (centro de la página, zona central) -->
-    <main>
-      <!-- section y article (posibilidades dentro de main) -->
-    </main>
-    <!-- Footer (final de la página, zona inferior) -->
-    <footer>
-      <h4>&copy;Copyright</h4>
-    </footer>
+    </section>
 
-    <!-- *** Google Analytics *** -->
-    <script src="https://www.google-analytics.com/analytics.js" async></script>
-  </body>
+    <section class="imagen_perfil">
+      <img class="foto" src="img/desktop/foto_perfil.png" alt="">
+      <p class="imagen_perfil_texto">Juana Delgado</p>
+      <p class="imagen_perfil_texto2">juanadelg@gmail.com</p>
+    </section>
+
+    <section class="escojer">
+      <li>922.28€</li>
+      <li>Paypal</li>
+      <li class="escojer_svg"><img src="img/desktop/ariba_abajo.svg" alt=""></li>
+    </section>
+
+    <figure class="img_precio_grande">
+      <img src="img/desktop/precio_grande.PNG" alt="Precio">
+    </figure>
+    <figcaption class="img_precio_grande_texto">
+      Bolso de Mano
+    </figcaption>
+
+    <article>
+      Lorem ipsum dolor sit amet consectetur,
+       adipisicing elit. Optio cupiditate 
+       nesciunt aliquid perferendis quos
+      nobis.
+    </article>
+
+    <button class="boton_enviar">
+      Enviar
+    </button>
+
+    <!-- </section> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- section y article (posibilidades dentro de main) -->
+  </main>
+  <!-- Footer (final de la página, zona inferior) -->
+  <footer>
+  </footer>
+
+  <!-- *** Google Analytics *** -->
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
 </html>
